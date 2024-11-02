@@ -1,0 +1,272 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f7f8fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Blurry Background Image */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://codehs.com/uploads/cbe3e39dfe468fc834f616200a0afb23') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1; /* Ensure it's behind all content */
+}
+
+
+/* Navbar Styling */
+/* Navbar Styling */
+nav {
+    display: flex;
+    justify-content: space-between; /* Keep the nav items spaced out */
+    align-items: center;
+    width: 100%;
+    background-color: #3498db;
+    padding: 31px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* New container to group the title and icons */
+/* .middle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+} */
+
+/* Center container for the title and icons */
+.middle-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Perfect centering */
+}
+
+/* Title with Logo and Icons Between Text */
+nav h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+}
+
+nav h1 span {
+    margin: 0 15px;
+}
+
+/* Adjust logo size */
+nav .logo img {
+    height: 60px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* Adjust icon size next to the title */
+.icon-left, .icon-right {
+    margin: 0 5px; /* Space between icons and title */
+}
+
+nav .logo img:hover {
+    filter: brightness(1.2); /* Slight highlight on hover */
+}
+
+/* Social Icon Styling in Navbar */
+.social-icon {
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.social-icon:hover {
+    color: #ff69b4; /* Hot pink hover effect */
+}
+
+/* Request a Visit button */
+.nav-button {
+    background-color: hotpink;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color:white;
+}
+
+
+/* User profile icon */
+.nav-profile {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.nav-profile:hover .profile-image {
+    border-color: hotpink;
+}
+
+/* Header Styling */
+header {
+    background-color: #3498db;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title in Header */
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Social Media Icons in Header */
+#social-icons {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+/* 
+#social-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+} */
+
+#social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+#social-icons a:hover {
+    color: #ff69b4;
+}
+
+
+
+/* Main Content: Map and Side Images */
+#main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Map Container Styling */
+#map-container {
+    width: 70vw; /* Adjust width as necessary */
+    height: 60vh; /* Adjust height as necessary */
+    margin: 0 auto;
+    position: relative;
+    border: 5px solid #ff69b4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Make sure it's a flexbox container */
+    justify-content: center; /* Ensure content inside is centered */
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+
+.legend {
+    background: white;
+    padding: 10px;
+    line-height: 24px;
+    color: #555;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.legend h4 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.legend .legend-icon {
+    vertical-align: middle;
+    width: 20px;
+    height: 30px;
+    margin-right: 4px;
+}
+
+
+/* Vertical Images (Left and Right Columns) */
+.vertical-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 15%; /* Fixed width based on the viewport */
+    max-width: 150px; /* Ensure max width */
+}
+
+.vertical-images img {
+    width: 100%; /* Ensure images fill the container */
+    height: auto;
+    margin-bottom: 20px; /* Space between images */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    margin-right: 10px;
+}
+
+.right-column {
+    margin-left: 10px;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #map-container {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .side-image img, .bottom-images img {
+        width: 100px;
+    }
+    
+    nav h1 {
+        font-size: 1.5rem;
+    }
+
+    .social-icon, .logo img {
+        font-size: 1.5rem;
+    }
+}
