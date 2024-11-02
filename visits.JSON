@@ -1,0 +1,38 @@
+[
+    {
+        "coords": [45.5152, -122.6784],
+        "name": "Portland",
+        "url": "https://yourblog.com/portland"
+    },
+    {
+        "coords": [37.7749, -122.4194],
+        "name": "San Francisco",
+        "url": "https://yourblog.com/"
+    },
+    {
+        "coords": [34.0522, -118.2437],
+        "name": "Los Angeles",
+        "url": "https://yourblog.com/losangeles"
+    },
+    {
+        "coords": [30.2672, -97.7431],
+        "name": "Austin",
+        "url": "https://yourblog.com/"
+    },
+    {
+        "coords": [25.7617, -80.1918],
+        "name": "Miami",
+        "url": "https://yourblog.com/"
+    },
+    {
+        "coords": [40.7128, -74.0060],
+        "name": "New York",
+        "url": "https://yourblog.com/newyork"
+    },
+    {
+        "coords": [41.8781, -87.6298],
+        "name": "Chicago",
+        "url": "https://yourblog.com/chicago",
+        "image": "https://codehs.com/uploads/18e3ffe74cb8156839358e225216b08d"
+    }
+]
