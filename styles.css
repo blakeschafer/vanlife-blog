@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    background: url('/vanlife-blog/uploads/backgrounds.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 100px 20px 20px 20px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.date {
+    font-size: 1em;
+    color: #888;
+    margin-bottom: 1.5em;
+}
+
+img.blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.tags {
+    margin-bottom: 1.5em;
+}
+
+a.tag-link {
+    color: #007acc;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+
+a.tag-link:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 1.8em;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+/* Add spacing and subtle effects for links */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styling */
+nav {
+    display: flex;
+    justify-content: space-between; /* Keep the nav items spaced out */
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* New container to group the title and icons */
+/* .middle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+} */
+
+/* Center container for the title and icons */
+.middle-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Perfect centering */
+}
+
+/* Title with Logo and Icons Between Text */
+nav h1 {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+}
+
+nav h1 span {
+    margin: 0 15px;
+}
+
+/* Adjust logo size */
+nav .logo img {
+    height: 60px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* Adjust icon size next to the title */
+.icon-left, .icon-right {
+    margin: 0 5px; /* Space between icons and title */
+}
+
+nav .logo img:hover {
+    filter: brightness(1.2); /* Slight highlight on hover */
+}
+
+/* Social Icon Styling in Navbar */
+.social-icon {
+    font-size: 2.5rem;
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.social-icon:hover {
+    color: #ff69b4; /* Hot pink hover effect */
+}

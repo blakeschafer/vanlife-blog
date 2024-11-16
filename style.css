@@ -17,21 +17,20 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('https://codehs.com/uploads/cbe3e39dfe468fc834f616200a0afb23') no-repeat center center fixed;
+    background: url('/vanlife-blog/uploads/backgrounds.png') no-repeat center center fixed;
     background-size: cover;
     z-index: -1; /* Ensure it's behind all content */
 }
 
 
 /* Navbar Styling */
-/* Navbar Styling */
 nav {
     display: flex;
     justify-content: space-between; /* Keep the nav items spaced out */
     align-items: center;
     width: 100%;
-    background-color: #3498db;
-    padding: 31px;
+    background-color: transparent;
+    padding: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     box-sizing: border-box;
@@ -59,7 +58,7 @@ nav {
 nav h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: black;
     font-size: 3rem;
     margin: 0;
     text-align: center;
@@ -88,7 +87,7 @@ nav .logo img:hover {
 /* Social Icon Styling in Navbar */
 .social-icon {
     font-size: 2.5rem;
-    color: white;
+    color: #3498db;
     text-decoration: none;
     margin: 0 20px;
 }
@@ -190,7 +189,7 @@ header h1 {
     height: 60vh; /* Adjust height as necessary */
     margin: 0 auto;
     position: relative;
-    border: 5px solid #ff69b4;
+    border: 5px solid #3498db;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex; /* Make sure it's a flexbox container */
     justify-content: center; /* Ensure content inside is centered */

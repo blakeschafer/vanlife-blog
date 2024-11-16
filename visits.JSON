@@ -1,38 +1,128 @@
 [
     {
-        "coords": [45.5152, -122.6784],
-        "name": "Portland",
-        "url": "https://yourblog.com/portland"
+        "coords": [41.8781, -87.6298],
+        "name": "Chicago",
+        "date": "October 1, 2024",
+        "url": "blog.html?id=chicago",
+        "image": "https://yourblog.com/images/chicago.jpg"
     },
     {
-        "coords": [37.7749, -122.4194],
-        "name": "San Francisco",
-        "url": "https://yourblog.com/"
+        "coords": [41.6764, -86.2520],
+        "name": "South Bend",
+        "date": "October 4, 2024",
+        "url": "blog.html?id=southbend",
+        "image": "https://yourblog.com/images/southbend.jpg"
     },
     {
-        "coords": [34.0522, -118.2437],
-        "name": "Los Angeles",
-        "url": "https://yourblog.com/losangeles"
+        "coords": [39.7684, -86.1581],
+        "name": "Indianapolis",
+        "date": "October 6, 2024",
+        "url": "blog.html?id=indianapolis",
+        "image": "https://yourblog.com/images/indianapolis.jpg"
     },
     {
-        "coords": [30.2672, -97.7431],
-        "name": "Austin",
-        "url": "https://yourblog.com/"
+        "coords": [39.9612, -82.9988],
+        "name": "Columbus",
+        "date": "October 10, 2024",
+        "url": "blog.html?id=columbus",
+        "image": "https://yourblog.com/images/columbus.jpg"
     },
     {
-        "coords": [25.7617, -80.1918],
-        "name": "Miami",
-        "url": "https://yourblog.com/"
+        "coords": [41.4993, -81.6944],
+        "name": "Cleveland",
+        "date": "October 12, 2024",
+        "url": "blog.html?id=cleveland",
+        "image": "https://yourblog.com/images/cleveland.jpg"
+    },
+    {
+        "coords": [43.0125, -83.6875],
+        "name": "Flint",
+        "date": "October 15, 2024",
+        "url": "blog.html?id=flint",
+        "image": "https://yourblog.com/images/flint.jpg"
+    },
+    {
+        "coords": [43.6532, -79.3832],
+        "name": "Toronto",
+        "date": "October 18, 2024",
+        "url": "blog.html?id=toronto",
+        "image": "https://yourblog.com/images/toronto.jpg"
+    },
+    {
+        "coords": [43.0896, -79.0849],
+        "name": "Niagara Falls",
+        "date": "October 19, 2024",
+        "url": "blog.html?id=niagarafalls",
+        "image": "https://yourblog.com/images/niagarafalls.jpg"
+    },
+    {
+        "coords": [43.1566, -77.6088],
+        "name": "Rochester",
+        "date": "October 20, 2024",
+        "url": "blog.html?id=rochester",
+        "image": "https://yourblog.com/images/rochester.jpg"
+    },
+    {
+        "coords": [43.2081, -71.5376],
+        "name": "Concord",
+        "date": "October 22, 2024",
+        "url": "blog.html?id=concord",
+        "image": "https://yourblog.com/images/concord.jpg"
+    },
+    {
+        "coords": [43.0886, -70.7366],
+        "name": "Kittery",
+        "date": "October 23, 2024",
+        "url": "blog.html?id=kittery",
+        "image": "https://yourblog.com/images/kittery.jpg"
+    },
+    {
+        "coords": [42.3601, -71.0589],
+        "name": "Boston",
+        "date": "October 25, 2024",
+        "url": "blog.html?id=boston",
+        "image": "https://yourblog.com/images/boston.jpg"
+    },
+    {
+        "coords": [41.3802, -70.6455],
+        "name": "Martha's Vineyard",
+        "date": "October 27, 2024",
+        "url": "blog.html?id=marthasvineyard",
+        "image": "https://yourblog.com/images/marthasvineyard.jpg"
+    },
+    {
+        "coords": [41.8240, -71.4128],
+        "name": "Providence",
+        "date": "October 29, 2024",
+        "url": "blog.html?id=providence",
+        "image": "https://yourblog.com/images/providence.jpg"
+    },
+    {
+        "coords": [41.3083, -72.9279],
+        "name": "New Haven",
+        "date": "October 31, 2024",
+        "url": "blog.html?id=newhaven",
+        "image": "https://yourblog.com/images/newhaven.jpg"
+    },
+    {
+        "coords": [40.7891, -73.1350],
+        "name": "Long Island",
+        "date": "November 6, 2024",
+        "url": "blog.html?id=longisland",
+        "image": "https://yourblog.com/images/longisland.jpg"
     },
     {
         "coords": [40.7128, -74.0060],
-        "name": "New York",
-        "url": "https://yourblog.com/newyork"
+        "name": "New York City",
+        "date": "November 9, 2024",
+        "url": "blog.html?id=newyorkcity",
+        "image": "https://yourblog.com/images/newyorkcity.jpg"
     },
     {
-        "coords": [41.8781, -87.6298],
-        "name": "Chicago",
-        "url": "https://yourblog.com/chicago",
-        "image": "https://codehs.com/uploads/18e3ffe74cb8156839358e225216b08d"
+        "coords": [39.9526, -75.1652],
+        "name": "Philadelphia",
+        "date": "November 15, 2024",
+        "url": "blog.html?id=philadelphia",
+        "image": "https://yourblog.com/images/philadelphia.jpg"
     }
 ]

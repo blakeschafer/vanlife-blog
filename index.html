@@ -7,7 +7,7 @@
 
     <!-- Link to CSS -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="blog-styles.css"> <!-- Link to the new CSS file -->
+    <link rel="stylesheet" href="blog-styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,20 +18,13 @@
 
     <!-- FontAwesome for Social Media Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
 </head>
 <body>
     <!-- Navbar Section -->
-    <nav>
-
-        <!-- <a href="visit-request-form.html" class="nav-button">Request a Visit</a> -->
-
-        <!-- Instagram Icon (Left of Title) -->
+    <nav class="navbar">
         <a href="https://www.instagram.com/codehs" target="_blank" class="social-icon">
             <i class="fab fa-instagram"></i>
         </a>
-
-                <!-- Title with Logo in the Middle -->
         <h1>
             <span>CodeHS</span>
             <a href="https://codehs.com/roadtrip" target="_blank" class="logo">
@@ -39,23 +32,13 @@
             </a>
             <span>Roadtrip</span>
         </h1>
-
-        <!-- TikTok Icon (Right of Title) -->
         <a href="https://www.tiktok.com/@codehsofficial" target="_blank" class="social-icon">
             <i class="fab fa-tiktok"></i>
         </a>
-
-        <!-- <a href="about-me.html" class="nav-profile">
-            <img src="https://codehs.com/uploads/794a79c57c8e25c60fe65f30b077f604" alt="Profile" class="profile-image">
-        </a> -->
-
-        
-
     </nav>
 
     <!-- Main content: Map and Images -->
     <div id="main-content">
-        <!-- Images on the sides -->
         <div class="vertical-images left-column">
             <img src="https://codehs.com/uploads/679bdbb28fb7a45a6b0cdb2836ccc357" alt="Van Image Right">
             <img src="https://codehs.com/uploads/d07bb7c0331eb108deeec5666b94d237" alt="Van Image Right">
@@ -66,9 +49,7 @@
         <div id="map-container">
             <div id="map"></div>
         </div>
-        
 
-        <!-- Images on the sides -->
         <div class="vertical-images right-column">
             <img src="https://codehs.com/uploads/3bacde456ba7d5f04a24695efa6ffe83" alt="Van Image Right">
             <img src="https://codehs.com/uploads/207b7e5099caaaa5734e29026ba3a25c" alt="Van Image Right">
@@ -76,29 +57,34 @@
         </div>
     </div>
 
-
+    <!-- Blog Posts Section -->
+    <div id="blog-posts">
+        <h2>Recent Travel Posts</h2>
+        <ul id="blog-list">
+            <!-- <li><a href="blog.html?id=philadelphia">Philadelphia - November 15, 2024</a></li>
+            <li><a href="blog.html?id=newyorkcity">New York City - November 9, 2024</a></li>
+            <li><a href="blog.html?id=longisland">Long Island - November 6, 2024</a></li>
+            <li><a href="blog.html?id=newhaven">New Haven - October 31, 2024</a></li>
+            <li><a href="blog.html?id=providence">Providence - October 29, 2024</a></li>
+            <li><a href="blog.html?id=marthasvineyard">Martha's Vineyard - October 27, 2024</a></li>
+            <li><a href="blog.html?id=boston">Boston - October 25, 2024</a></li>
+            <li><a href="blog.html?id=kittery">Kittery - October 23, 2024</a></li>
+            <li><a href="blog.html?id=concord">Concord - October 22, 2024</a></li>
+            <li><a href="blog.html?id=rochester">Rochester - October 20, 2024</a></li>
+            <li><a href="blog.html?id=niagarafalls">Niagara Falls - October 19, 2024</a></li>
+            <li><a href="blog.html?id=toronto">Toronto - October 18, 2024</a></li>
+            <li><a href="blog.html?id=flint">Flint - October 15, 2024</a></li>
+            <li><a href="blog.html?id=cleveland">Cleveland - October 12, 2024</a></li>
+            <li><a href="blog.html?id=columbus">Columbus - October 10, 2024</a></li>
+            <li><a href="blog.html?id=indianapolis">Indianapolis - October 6, 2024</a></li>
+            <li><a href="blog.html?id=southbend">South Bend - October 4, 2024</a></li>
+            <li><a href="blog.html?id=chicago">Chicago - October 1, 2024</a></li> -->
+        </ul>
+    </div>
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-
     <script src="index.js"></script>
-
-        <!-- Blog section below the map -->
-        <div id="blog-section">
-            <h2>Recent Blog Posts</h2>
-            <ul id="blog-list">
-                <li><a href="#" onclick="loadBlog('blog3')">Indy 500</a> - Oct 6, 2024</li>
-                <li><a href="#" onclick="loadBlog('blog2')">Hello Indiana</a> - Oct 2, 2024</li>
-                <li><a href="#" onclick="loadBlog('blog1')">Leaving Chicago</a> - Sep 30, 2024</li>
-            </ul>
-        </div>
-
-        <!-- Blog content will be injected here -->
-        <!-- <div id="blog-content">
-        </div> -->
-    </div>
-
-    <script src="blog-scripts.js"></script> <!-- Link to your external JavaScript file -->
-
 </body>
 </html>
+
