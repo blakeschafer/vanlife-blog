@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: url('uploads/vanvan.png') 16 16, auto; /* Fallback to default if the custom cursor fails */
 }
 
 /* Blurry Background Image */
@@ -82,6 +83,7 @@ nav .logo img {
 
 nav .logo img:hover {
     filter: brightness(1.2); /* Slight highlight on hover */
+    cursor: url('uploads/cursor.png') 16 16, auto; /* Fallback cursor */
 }
 
 /* Social Icon Styling in Navbar */
@@ -94,6 +96,7 @@ nav .logo img:hover {
 
 .social-icon:hover {
     color: #ff69b4; /* Hot pink hover effect */
+    cursor: url('uploads/cursor.png') 16 16, auto; /* Fallback cursor */
 }
 
 /* Request a Visit button */
@@ -110,6 +113,7 @@ nav .logo img:hover {
 
 .nav-button:hover {
     background-color:white;
+    cursor: url('uploads/cursor.png') 16 16, auto; /* Fallback cursor */
 }
 
 
@@ -171,6 +175,7 @@ header h1 {
 
 #social-icons a:hover {
     color: #ff69b4;
+    cursor: url('uploads/cursor.png') 16 16, auto; /* Fallback cursor */
 }
 
 
@@ -185,19 +190,21 @@ header h1 {
 
 /* Map Container Styling */
 #map-container {
-    width: 70vw; /* Adjust width as necessary */
-    height: 60vh; /* Adjust height as necessary */
+    width: 150vh; /* Adjust width as necessary */
+    height: 75vh; /* Adjust height as necessary */
     margin: 0 auto;
     position: relative;
     border: 5px solid #3498db;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex; /* Make sure it's a flexbox container */
     justify-content: center; /* Ensure content inside is centered */
+    cursor: url('uploads/cursor.png') 16 16, auto; /* Fallback cursor */
 }
 
 #map {
     height: 100%;
     width: 100%;
+    cursor: url('uploads/cursor.png') 16 16, auto; /* Fallback cursor */
 }
 
 
@@ -268,4 +275,19 @@ header h1 {
     .social-icon, .logo img {
         font-size: 1.5rem;
     }
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place behind all other elements */
+    background: linear-gradient(135deg, #ffffff, #3498db); /* Optional: Gradient background */
+    overflow: hidden;
+}
+
+#map-container, #blog-list, #navbar {
+    cursor: url('uploads/vanvan.png') 16 16, auto; /* Fallback cursor */
 }

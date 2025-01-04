@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+    
 }
 
 
@@ -161,4 +162,6 @@ nav .logo img:hover {
 
 .social-icon:hover {
     color: #ff69b4; /* Hot pink hover effect */
+    cursor: url('uploads/cursor.png') 16 16, auto; /* Fallback cursor */
+
 }

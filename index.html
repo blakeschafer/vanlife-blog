@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanlife Journey Map</title>
 
-    <!-- Link to CSS -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="blog-styles.css">
 
@@ -13,14 +14,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
-    <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
-    <!-- FontAwesome for Social Media Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <!-- Navbar Section -->
+
+    <div id="particles-js"></div>
+
     <nav class="navbar">
         <a href="https://www.instagram.com/codehs" target="_blank" class="social-icon">
             <i class="fab fa-instagram"></i>
@@ -37,7 +38,6 @@
         </a>
     </nav>
 
-    <!-- Main content: Map and Images -->
     <div id="main-content">
         <div class="vertical-images left-column">
             <img src="https://codehs.com/uploads/679bdbb28fb7a45a6b0cdb2836ccc357" alt="Van Image Right">
@@ -45,7 +45,6 @@
             <img src="https://codehs.com/uploads/37bb3e67f7b7d83a3224b1da66c810a8" alt="Van Image Right">
         </div>
         
-        <!-- Map Container -->
         <div id="map-container">
             <div id="map"></div>
         </div>
@@ -57,34 +56,104 @@
         </div>
     </div>
 
-    <!-- Blog Posts Section -->
     <div id="blog-posts">
-        <h2>Recent Travel Posts</h2>
+        <h2>Travel Logs</h2>
         <ul id="blog-list">
-            <!-- <li><a href="blog.html?id=philadelphia">Philadelphia - November 15, 2024</a></li>
-            <li><a href="blog.html?id=newyorkcity">New York City - November 9, 2024</a></li>
-            <li><a href="blog.html?id=longisland">Long Island - November 6, 2024</a></li>
-            <li><a href="blog.html?id=newhaven">New Haven - October 31, 2024</a></li>
-            <li><a href="blog.html?id=providence">Providence - October 29, 2024</a></li>
-            <li><a href="blog.html?id=marthasvineyard">Martha's Vineyard - October 27, 2024</a></li>
-            <li><a href="blog.html?id=boston">Boston - October 25, 2024</a></li>
-            <li><a href="blog.html?id=kittery">Kittery - October 23, 2024</a></li>
-            <li><a href="blog.html?id=concord">Concord - October 22, 2024</a></li>
-            <li><a href="blog.html?id=rochester">Rochester - October 20, 2024</a></li>
-            <li><a href="blog.html?id=niagarafalls">Niagara Falls - October 19, 2024</a></li>
-            <li><a href="blog.html?id=toronto">Toronto - October 18, 2024</a></li>
-            <li><a href="blog.html?id=flint">Flint - October 15, 2024</a></li>
-            <li><a href="blog.html?id=cleveland">Cleveland - October 12, 2024</a></li>
-            <li><a href="blog.html?id=columbus">Columbus - October 10, 2024</a></li>
-            <li><a href="blog.html?id=indianapolis">Indianapolis - October 6, 2024</a></li>
-            <li><a href="blog.html?id=southbend">South Bend - October 4, 2024</a></li>
-            <li><a href="blog.html?id=chicago">Chicago - October 1, 2024</a></li> -->
+
         </ul>
     </div>
 
-    <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="index.js"></script>
-</body>
-</html>
 
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80, // Adjust number of particles
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff" // Particle color
+                },
+                "shape": {
+                    "type": "circle", // Shape of particles
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    }
+                },
+                "opacity": {
+                    "value": 0.5, 
+                    "random": false
+                },
+                "size": {
+                    "value": 3, 
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2, 
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push" 
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script> 
+</body>
+</html> 

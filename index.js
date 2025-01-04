@@ -33,6 +33,15 @@ fetch('visits.json')
             popupContent += `<a href="${location.url}" target="_blank">View Post</a>`;
             marker.bindPopup(popupContent);
 
+            // // Add hover behavior for popups
+            // marker.on('popupopen', function () {
+            //     document.body.style.cursor = 'url(uploads/cursor.png), auto'; // Custom cursor on popup open
+            // });
+
+            // marker.on('popupclose', function () {
+            //     document.body.style.cursor = 'auto'; // Reset cursor on popup close
+            // });
+
             // Add each blog post to the list under the map
             const listItem = document.createElement('li');
             listItem.classList.add('blog-item');
@@ -46,7 +55,7 @@ fetch('visits.json')
 
         // Create a polyline to connect the locations
         const routeCoordinates = locations.map(loc => loc.coords);
-        const route = L.polyline(routeCoordinates, { color: '#3498db' }).addTo(map);
+        const route = L.polyline(routeCoordinates, { color: '#3498db', weight: 7.5 }).addTo(map);
     })
     .catch(error => console.error('Error fetching visits.json:', error));
 

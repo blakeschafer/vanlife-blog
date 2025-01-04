@@ -124,5 +124,89 @@
         "date": "November 15, 2024",
         "url": "blog.html?id=philadelphia",
         "image": "https://yourblog.com/images/philadelphia.jpg"
+    },
+    {
+        "coords": [39.2904, -76.6122],
+        "name": "Baltimore",
+        "url": "blog.html?id=baltimore",
+        "date": "November 17, 2024",
+        "image": "images/baltimore.jpg"
+    },
+    {
+        "coords": [38.9072, -77.0369],
+        "name": "Washington DC",
+        "url": "blog.html?id=washingtondc",
+        "date": "November 18, 2024",
+        "image": "images/washingtondc.jpg"
+    },
+    {
+        "coords": [38.3365, -75.0849],
+        "name": "Ocean City, Maryland",
+        "url": "blog.html?id=oceancity",
+        "date": "November 19, 2024",
+        "image": "images/oceancity.jpg"
+    },
+    {
+        "coords": [36.8529, -75.9780],
+        "name": "Virginia Beach",
+        "url": "blog.html?id=virginiabeach",
+        "date": "November 20, 2024",
+        "image": "images/virginiabeach.jpg"
+    },
+    {
+        "coords": [35.7796, -78.6382],
+        "name": "Raleigh-Durham",
+        "url": "blog.html?id=raleigh",
+        "date": "November 22, 2024",
+        "image": "images/raleigh.jpg"
+    },
+    {
+        "coords": [32.7765, -79.9311],
+        "name": "Charleston",
+        "url": "blog.html?id=charleston",
+        "date": "December 8, 2024",
+        "image": "images/charleston.jpg"
+    },
+    {
+        "coords": [33.7490, -84.3880],
+        "name": "Atlanta",
+        "url": "blog.html?id=atlanta",
+        "date": "December 11, 2024",
+        "image": "images/atlanta.jpg"
+    },
+    {
+        "coords": [32.0809, -81.0912],
+        "name": "Savannah",
+        "url": "blog.html?id=savannah",
+        "date": "December 15, 2024",
+        "image": "images/savannah.jpg"
+    },
+    {
+        "coords": [30.3322, -81.6557],
+        "name": "Jacksonville",
+        "url": "blog.html?id=jacksonville",
+        "date": "Decemeber 17, 2024",
+        "image": "images/jacksonville.jpg"
+    },
+    {
+        "coords": [25.7617, -80.1918],
+        "name": "Miami",
+        "url": "blog.html?id=miami",
+        "date": "January 7, 2025",
+        "image": "images/miami.jpg"
+    },
+    {
+        "coords": [27.9506, -82.4572],
+        "name": "Tampa",
+        "url": "blog.html?id=tampa",
+        "date": "January 10, 2025",
+        "image": "images/tampa.jpg"
+    },
+    {
+        "coords": [33.5186, -86.8104],
+        "name": "Birmingham",
+        "url": "blog.html?id=birmingham",
+        "date": "January 13, 2025",
+        "image": "images/birmingham.jpg"
     }
 ]
