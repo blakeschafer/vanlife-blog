@@ -1,37 +1,86 @@
-/* #blog-posts {
-    margin-top: 20px;
-    padding: 10px;
-    border-top: 2px solid #ddd;
+/* Blog Section */
+#blog-section {
+    padding: 20px;
+    text-align: center;
 }
 
-#blog-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+/* Blog cards container */
+#blog-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1150px; /* Adjust to match map width */
 }
 
-#blog-list li {
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-}
-
-#blog-list li a {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    align-items: center;
+/* Individual blog card */
+.blog-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
     transition: transform 0.2s;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
 }
 
-#blog-list li a:hover {
-    transform: scale(1.05);
+.blog-card:hover {
+    transform: scale(1.02);
 }
 
-#blog-list img {
-    margin-right: 10px;
-    border-radius: 8px;
-} */
+/* Card content */
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Card title */
+.card-content h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Card date */
+.card-content p {
+    margin: 0px 0 0px;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+
+
+/* Card button (entire bottom section) */
+.card-button {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #blog-cards {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    #blog-cards {
+        grid-template-columns: 1fr; /* 1 card per row on mobile */
+    }
+}
+
 
 #blog-posts {
     margin-top: 20px;

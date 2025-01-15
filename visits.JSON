@@ -4,209 +4,230 @@
         "name": "Chicago",
         "date": "October 1, 2024",
         "url": "blog.html?id=chicago",
-        "image": "https://yourblog.com/images/chicago.jpg"
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [41.6764, -86.2520],
         "name": "South Bend",
         "date": "October 4, 2024",
         "url": "blog.html?id=southbend",
-        "image": "https://yourblog.com/images/southbend.jpg"
+        "image": "https://www.goodfreephotos.com/public-domain-images/cityscape-overview-of-south-bend-indiana.jpg.php"
     },
     {
         "coords": [39.7684, -86.1581],
         "name": "Indianapolis",
         "date": "October 6, 2024",
         "url": "blog.html?id=indianapolis",
-        "image": "https://yourblog.com/images/indianapolis.jpg"
+        "image": "https://www.alamy.com/stock-photo/aerial-downtown-indianapolis-indiana.html"
     },
     {
         "coords": [39.9612, -82.9988],
         "name": "Columbus",
         "date": "October 10, 2024",
         "url": "blog.html?id=columbus",
-        "image": "https://yourblog.com/images/columbus.jpg"
+        "image": "https://www.dreamstime.com/stock-photo-columbus-ohio-cityscape-evening-skyline-along-scioto-river-dusk-image97183705"
     },
     {
         "coords": [41.4993, -81.6944],
         "name": "Cleveland",
         "date": "October 12, 2024",
         "url": "blog.html?id=cleveland",
-        "image": "https://yourblog.com/images/cleveland.jpg"
+        "image": "https://wallpaperaccess.com/cleveland-skyline"
     },
     {
         "coords": [43.0125, -83.6875],
         "name": "Flint",
         "date": "October 15, 2024",
         "url": "blog.html?id=flint",
-        "image": "https://yourblog.com/images/flint.jpg"
+        "image": "https://www.reddit.com/r/Michigan/comments/hdfmp/downtown_flint_at_sunset_beautiful_downtown_flint/"
     },
     {
         "coords": [43.6532, -79.3832],
         "name": "Toronto",
         "date": "October 18, 2024",
         "url": "blog.html?id=toronto",
-        "image": "https://yourblog.com/images/toronto.jpg"
+        "image": "https://wallpaperaccess.com/toronto-4k"
     },
     {
         "coords": [43.0896, -79.0849],
         "name": "Niagara Falls",
         "date": "October 19, 2024",
         "url": "blog.html?id=niagarafalls",
-        "image": "https://yourblog.com/images/niagarafalls.jpg"
+        "image": "https://blog.lashgroup.ca/2014/11/08/10-stunningly-beautiful-pictures-of-the-toronto-skyline/"
     },
     {
         "coords": [43.1566, -77.6088],
         "name": "Rochester",
         "date": "October 20, 2024",
         "url": "blog.html?id=rochester",
-        "image": "https://yourblog.com/images/rochester.jpg"
+        "image": "https://www.dreamstime.com/providence-rhode-island-usa-downtown-cityscape-viewed-above-river-image272543162"
     },
     {
         "coords": [43.2081, -71.5376],
         "name": "Concord",
         "date": "October 22, 2024",
         "url": "blog.html?id=concord",
-        "image": "https://yourblog.com/images/concord.jpg"
+        "image": "https://www.redbubble.com/i/sticker/Oil-painting-of-Concord-Skyline-by-AI-US-Cityscape-by-AIArtWizard/102268756.EJUG5"
     },
     {
         "coords": [43.0886, -70.7366],
         "name": "Kittery",
         "date": "October 23, 2024",
         "url": "blog.html?id=kittery",
-        "image": "https://yourblog.com/images/kittery.jpg"
+        "image": "https://pt.vecteezy.com/foto/9178800-new-haven-city-downtown-skyline-cityscape-of-connecticut-usa"
     },
     {
         "coords": [42.3601, -71.0589],
         "name": "Boston",
         "date": "October 25, 2024",
         "url": "blog.html?id=boston",
-        "image": "https://yourblog.com/images/boston.jpg"
+        "image": "https://www.pixelstalk.net/boston-skyline-wallpapers-download-free/"
     },
     {
         "coords": [41.3802, -70.6455],
         "name": "Martha's Vineyard",
         "date": "October 27, 2024",
         "url": "blog.html?id=marthasvineyard",
-        "image": "https://yourblog.com/images/marthasvineyard.jpg"
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [41.8240, -71.4128],
         "name": "Providence",
         "date": "October 29, 2024",
         "url": "blog.html?id=providence",
-        "image": "https://yourblog.com/images/providence.jpg"
+        "image": "https://www.dreamstime.com/providence-rhode-island-usa-downtown-cityscape-viewed-above-river-image272543162"
     },
     {
         "coords": [41.3083, -72.9279],
         "name": "New Haven",
         "date": "October 31, 2024",
         "url": "blog.html?id=newhaven",
-        "image": "https://yourblog.com/images/newhaven.jpg"
+        "image": "https://pt.vecteezy.com/foto/9178800-new-haven-city-downtown-skyline-cityscape-of-connecticut-usa"
     },
     {
         "coords": [40.7891, -73.1350],
         "name": "Long Island",
         "date": "November 6, 2024",
         "url": "blog.html?id=longisland",
-        "image": "https://yourblog.com/images/longisland.jpg"
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [40.7128, -74.0060],
         "name": "New York City",
         "date": "November 9, 2024",
         "url": "blog.html?id=newyorkcity",
-        "image": "https://yourblog.com/images/newyorkcity.jpg"
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [39.9526, -75.1652],
         "name": "Philadelphia",
         "date": "November 15, 2024",
         "url": "blog.html?id=philadelphia",
-        "image": "https://yourblog.com/images/philadelphia.jpg"
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [39.2904, -76.6122],
         "name": "Baltimore",
-        "url": "blog.html?id=baltimore",
         "date": "November 17, 2024",
-        "image": "images/baltimore.jpg"
+        "url": "blog.html?id=baltimore",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [38.9072, -77.0369],
         "name": "Washington DC",
-        "url": "blog.html?id=washingtondc",
         "date": "November 18, 2024",
-        "image": "images/washingtondc.jpg"
+        "url": "blog.html?id=washingtondc",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [38.3365, -75.0849],
         "name": "Ocean City, Maryland",
-        "url": "blog.html?id=oceancity",
         "date": "November 19, 2024",
-        "image": "images/oceancity.jpg"
+        "url": "blog.html?id=oceancity",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [36.8529, -75.9780],
         "name": "Virginia Beach",
-        "url": "blog.html?id=virginiabeach",
         "date": "November 20, 2024",
-        "image": "images/virginiabeach.jpg"
+        "url": "blog.html?id=virginiabeach",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [35.7796, -78.6382],
         "name": "Raleigh-Durham",
-        "url": "blog.html?id=raleigh",
         "date": "November 22, 2024",
-        "image": "images/raleigh.jpg"
+        "url": "blog.html?id=raleigh",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [32.7765, -79.9311],
         "name": "Charleston",
-        "url": "blog.html?id=charleston",
         "date": "December 8, 2024",
-        "image": "images/charleston.jpg"
+        "url": "blog.html?id=charleston",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [33.7490, -84.3880],
         "name": "Atlanta",
-        "url": "blog.html?id=atlanta",
         "date": "December 11, 2024",
-        "image": "images/atlanta.jpg"
+        "url": "blog.html?id=atlanta",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [32.0809, -81.0912],
         "name": "Savannah",
-        "url": "blog.html?id=savannah",
         "date": "December 15, 2024",
-        "image": "images/savannah.jpg"
+        "url": "blog.html?id=savannah",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [30.3322, -81.6557],
         "name": "Jacksonville",
+        "date": "December 17, 2024",
         "url": "blog.html?id=jacksonville",
-        "date": "Decemeber 17, 2024",
-        "image": "images/jacksonville.jpg"
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [25.7617, -80.1918],
         "name": "Miami",
-        "url": "blog.html?id=miami",
         "date": "January 7, 2025",
-        "image": "images/miami.jpg"
+        "url": "blog.html?id=miami",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [27.9506, -82.4572],
         "name": "Tampa",
-        "url": "blog.html?id=tampa",
         "date": "January 10, 2025",
-        "image": "images/tampa.jpg"
+        "url": "blog.html?id=tampa",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
+    },
+    {
+        "coords": [30.4213, -87.2169],
+        "name": "Pensacola",
+        "date": "January 11, 2025",
+        "url": "blog.html?id=pensacola",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
+    },
+    {
+        "coords": [29.9511, -90.0715],
+        "name": "New Orleans",
+        "date": "January 12, 2025",
+        "url": "blog.html?id=neworleans",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     },
     {
         "coords": [33.5186, -86.8104],
         "name": "Birmingham",
-        "url": "blog.html?id=birmingham",
         "date": "January 13, 2025",
-        "image": "images/birmingham.jpg"
+        "url": "blog.html?id=birmingham",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
+    },
+    {
+        "coords": [36.1627, -86.7816],
+        "name": "Nashville",
+        "date": "January 16, 2025",
+        "url": "blog.html?id=nashville",
+        "image": "https://www.pexels.com/photo/chicago-cityscape-161963/"
     }
 ]

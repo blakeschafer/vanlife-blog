@@ -37,13 +37,6 @@ nav {
     box-sizing: border-box;
 }
 
-/* New container to group the title and icons */
-/* .middle-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto; 
-} */
 
 /* Center container for the title and icons */
 .middle-container {
@@ -59,7 +52,7 @@ nav {
 nav h1 {
     display: flex;
     align-items: center;
-    color: black;
+    color: #3498db;
     font-size: 3rem;
     margin: 0;
     text-align: center;
@@ -160,12 +153,6 @@ header h1 {
     top: 20px;
 }
 
-/* 
-#social-icons {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-} */
 
 #social-icons a {
     color: white;
@@ -284,7 +271,7 @@ header h1 {
     top: 0;
     left: 0;
     z-index: -1; /* Place behind all other elements */
-    background: linear-gradient(135deg, #ffffff, #3498db); /* Optional: Gradient background */
+    background: linear-gradient(180deg, #ffffff, #3498db); /* Optional: Gradient background */
     overflow: hidden;
 }
 

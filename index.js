@@ -14,14 +14,12 @@ var customIcon = L.icon({
     popupAnchor: [0, -45] // Adjust the popup anchor to keep it above the icon
 });
 
-
 fetch('visits.json')
     .then(response => response.json())
     .then(locations => {
-        const blogList = document.getElementById('blog-list');
+        const blogContainer = document.getElementById('blog-cards'); // Select the blog cards container
 
-        // Add markers and popups
-        locations.forEach(function(location) {
+        locations.forEach(location => {
             // Add markers to the map
             const marker = L.marker(location.coords, { icon: customIcon }).addTo(map);
 
@@ -33,31 +31,72 @@ fetch('visits.json')
             popupContent += `<a href="${location.url}" target="_blank">View Post</a>`;
             marker.bindPopup(popupContent);
 
-            // // Add hover behavior for popups
-            // marker.on('popupopen', function () {
-            //     document.body.style.cursor = 'url(uploads/cursor.png), auto'; // Custom cursor on popup open
-            // });
+            // Create the blog card
+            const card = document.createElement('div');
+            card.classList.add('blog-card');
 
-            // marker.on('popupclose', function () {
-            //     document.body.style.cursor = 'auto'; // Reset cursor on popup close
-            // });
+            // Add the image
+            const img = document.createElement('img');
+            img.src = location.image;
+            img.alt = `${location.name}`;
+            img.style.width = '100%'; // Ensure the image fits the card width
+            img.style.height = '150px'; // Fixed height for uniformity
+            img.style.objectFit = 'cover'; // Crop image without distortion
 
-            // Add each blog post to the list under the map
-            const listItem = document.createElement('li');
-            listItem.classList.add('blog-item');
-            listItem.innerHTML = `
-                <a href="${location.url}" target="_blank">
-                    ${location.name}  -  ${location.date}
-                </a>
-            `;
-            blogList.appendChild(listItem);
+            // Add the card content
+            const content = document.createElement('div');
+            content.classList.add('card-content');
+
+            const title = document.createElement('h3');
+            title.textContent = location.name;
+
+            const date = document.createElement('p');
+            date.textContent = location.date;
+
+            // Add a link to the full blog post
+            const link = document.createElement('a');
+            link.href = location.url;
+            link.target = '_blank';
+            link.textContent = 'Read More';
+            
+            // Style the link as a button that covers the entire bottom of the card
+            link.style.display = 'block'; // Make the link behave like a block element
+            link.style.backgroundColor = '#007BFF'; // Button background color
+            link.style.color = '#FFFFFF'; // Text color
+            link.style.textDecoration = 'none'; // Remove underline
+            link.style.fontWeight = 'bold'; // Bold text
+            link.style.textAlign = 'center'; // Center-align text
+            link.style.padding = '7px 0'; // Padding for the button
+            link.style.borderRadius = '0 0 8px 8px'; // Rounded corners at the bottom
+            link.style.width = '100%'; // Ensure it spans the full width of the card
+            link.style.marginTop = '0px'; // Space between content and button
+            
+            // Add hover effect for the button
+            link.style.transition = 'background-color 0.3s ease';
+            link.addEventListener('mouseover', () => {
+                link.style.backgroundColor = '#0056b3'; // Darker color on hover
+            });
+            link.addEventListener('mouseout', () => {
+                link.style.backgroundColor = '#3498db'; // Original color
+            });
+
+            // Append content to the card
+            content.appendChild(title);
+            content.appendChild(date);
+            card.appendChild(img);
+            card.appendChild(content);
+            card.appendChild(link);
+
+            // Append card to the container
+            blogContainer.appendChild(card);
+
+            // Create a polyline to connect the locations
+            const routeCoordinates = locations.map(loc => loc.coords);
+            const route = L.polyline(routeCoordinates, { color: '#3498db', weight: 7.5 }).addTo(map);
         });
-
-        // Create a polyline to connect the locations
-        const routeCoordinates = locations.map(loc => loc.coords);
-        const route = L.polyline(routeCoordinates, { color: '#3498db', weight: 7.5 }).addTo(map);
     })
     .catch(error => console.error('Error fetching visits.json:', error));
+
 
 
 // Function to convert DMS to decimal degrees

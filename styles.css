@@ -104,13 +104,6 @@ nav {
     box-sizing: border-box;
 }
 
-/* New container to group the title and icons */
-/* .middle-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto; 
-} */
 
 /* Center container for the title and icons */
 .middle-container {
